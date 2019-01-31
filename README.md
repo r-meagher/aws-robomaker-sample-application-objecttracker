@@ -121,7 +121,7 @@ libjpeg62:
     xenial: [libjpeg62]
 ```
 
-Then add the rule to rosdep bu running `echo "yaml file:/etc/ros/rosdep/custom-rules/object-tracker-rules.yaml" > /etc/ros/rosdep/sources.list.d/23-object-tracker-rules.list`
+Then add the rule to rosdep by running `echo "yaml file:/etc/ros/rosdep/custom-rules/object-tracker-rules.yaml" > /etc/ros/rosdep/sources.list.d/23-object-tracker-rules.list`
 
 Update rosdep once your new rules are added:
 ```bash
